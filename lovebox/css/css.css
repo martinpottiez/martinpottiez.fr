@@ -1,0 +1,71 @@
+body
+{
+  padding:0;
+  margin:0;
+  font-family: 'Roboto', serif;
+}
+
+/* Flex */
+
+.flex
+{
+  display:flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  align-items: center;
+}
+
+.j-sb
+{
+  justify-content: space-between;
+}
+
+/* Color */
+
+.bg-pink
+{
+  background-color:#ff9ff3;
+}
+
+.bg-green
+{
+  background-color:#16a085;
+}
+
+.bg-white
+{
+  background-color:#fff;
+}
+
+.bg-grey
+{
+  background-color:#ededed;
+}
+
+.txt-white
+{
+  color:#fff;
+}
+
+/* Align */
+
+.center
+{
+  text-align:center;
+}
+
+/* Div */
+
+.wrapper
+{
+  width:1080px;
+}
+
+/* Padding */
+
+.p15
+{
+  padding:15px;
+}
