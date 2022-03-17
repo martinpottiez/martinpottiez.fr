@@ -1,6 +1,6 @@
 <html>
   <head>
-    <title>Martin Pottiez - Computer Engineer</title>
+    <title>Martin Pottiez</title>
     <meta name="viewport" content="width=device-width" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <link rel="stylesheet" type="text/css" href="css/css.css">
@@ -29,29 +29,23 @@
           </p>
         </div>
         <div id="page-img">
-          <img src="img/martin2.jpg" alt="Martin's profil" width="600px;"/>
+          <img src="img/martin2-min.png" alt="Martin's profil" width="600px;"/>
         </div>
       </div>
     </div>
-    <div id="me" class="page flex column black" style="padding-bottom:15vw;">
+    <div id="blog" class="page flex column blue" style="padding-bottom:15vw;">
       <div>
         <h2>BLOG</h2>
       </div>
       <div class="flex">
         <div class="parallax bot">
-          <div class="left">
-            I am a young student in computer engineering based in Calais, France.<br />
-            I'm looking for an internship for the <span class="t-blue">Summer 2021</span>.<br />
-            You are a campany and you're searching someone for a mission/project ?<br />
-            I'm your man.<br />
-            I'm motivated, sociable, patient, passionnate and very exciting to take up challenges !
-          </div>
+
         </div>
       </div>
     </div>
     <div id="projects" class="page flex column grey" style="justify-content:flex-start;padding-bottom:10vw;">
       <div>
-        <h2 class="scramble-title">Jocspret</h2>
+        <h2 class="scramble-title t-blue">Projects</h2>
       </div>
       <div class="grid">
         <div class="project flex center">
