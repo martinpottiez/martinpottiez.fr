@@ -172,22 +172,4 @@ $('#contact-submit').click(function(e){
     'text'
   );
 });
-
-var settings = {
-  radius:140,
-  speed:1,
-  slower:0.2,
-  timer:5,
-  fontMultiplier:35,
-  hoverStyle: {
-    border: '',
-    color: ''
-  },
-  mouseOutStyle: {
-    border: '',
-    color: ''
-  }
-};
-$('.tagcloud').tagoSphere(settings);
-
 });

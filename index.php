@@ -1,6 +1,6 @@
 <html>
   <head>
-    <title>Martin Pottiez - Student Engineer</title>
+    <title>Martin Pottiez - Computer Engineer</title>
     <meta name="viewport" content="width=device-width" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <link rel="stylesheet" type="text/css" href="css/css.css">
@@ -12,7 +12,7 @@
       <header class="flex flex-end">
         <nav>
           <ul>
-            <li><a href="#me">Who I am</a></li>
+            <li><a href="#blog">Blog</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#resume">Resume</a></li>
             <li><a href="#contact" class="a-border">Contact</a></li>
@@ -20,10 +20,11 @@
         </nav>
       </header>
       <div class="flex" style="margin:initial">
-        <div class="parallax hi" style="max-width:600px;align-self:flex-start;margin-top:-100px;">
-          <h1>Hi, I'm <span class="scramble">Tramin</span><span class="t-blue">.</span></h1>
+        <div id="welcomeBox" class="parallax">
+          <h1>Hi, I'm <span class="scramble">Martin</span><span class="t-blue">.</span></h1>
           <p class="left">
-            I'm a 🇫🇷 student in computer engineering searching for an <span class="t-blue">internship</span>.<br />
+            I'm a 🇫🇷 software engineer and <br />
+            iOS developer.<br />
             <a href="#contact" class="a-button">Contact me</a>
           </p>
         </div>
@@ -34,25 +35,9 @@
     </div>
     <div id="me" class="page flex column black" style="padding-bottom:15vw;">
       <div>
-        <h2>What you want is what I am.</h2>
+        <h2>BLOG</h2>
       </div>
       <div class="flex">
-        <div class="parallax tag">
-          <div id="tagcloud" class="tagcloud">
-            <ul>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>Javascript</li>
-              <li>PHP</li>
-              <li>MySQL</li>
-              <li>C</li>
-              <li>JAVA</li>
-              <li>jQuery</li>
-              <li>WordPress</li>
-              <li>Git</li>
-            </ul>
-          </div>
-        </div>
         <div class="parallax bot">
           <div class="left">
             I am a young student in computer engineering based in Calais, France.<br />
@@ -163,6 +148,5 @@
   </body>
   <script   src="https://code.jquery.com/jquery-3.5.1.js"   integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="   crossorigin="anonymous"></script>
   <script src="js/jq-visible/jquery.visible.js"></script>
-  <script src="js/cloud/src/tagcloud.jquery.js"></script>
   <script src="js/jq.js"></script>
 </html>

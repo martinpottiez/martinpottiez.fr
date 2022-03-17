@@ -43,6 +43,12 @@ h2
   overflow:hidden;
 }
 
+#welcomeBox {
+  width:500px;
+  margin-top: -100px;
+  align-self:flex-start;
+}
+
 #me
 {
   background-image:url('../img/bottom-angle2.png');
@@ -68,8 +74,8 @@ h2
 
 .a-border
 {
-  color:#00a8ff;
-  border:2px solid #00a8ff;
+  color:#004E77;
+  border:2px solid #004E77;
   border-radius:25px;
   padding:5px 10px;
   transition: all 0.2s ease;
@@ -77,25 +83,24 @@ h2
 
 .a-border:hover
 {
-  background-color:#00a8ff;
+  background-color:#004E77;
   color:#fff;
 }
 
-.a-button
-{
+.a-button {
+  color: #004E77;
   display:inline-block;
-  color:#00a8ff;
-  border:2px solid #00a8ff;
+  border:2px solid #004E77;
   border-radius:25px;
   padding:5px 15px;
-  margin:20px 0;
+  margin:40px 0;
   transition: all 0.2s ease;
 }
 
 .a-button:hover
 {
   color:#fff;
-  background-color:#00a8ff;
+  background-color:#004E77;
 }
 
 .button, .button2
@@ -165,7 +170,7 @@ h2
 
 .blue
 {
-  background-color:#00a8ff;
+  background-color:#004E77;
 }
 
 .green
@@ -188,7 +193,7 @@ h2
 
 .t-blue
 {
-  color:#00a8ff;
+  color:#004E77;
 }
 
 .t-black
